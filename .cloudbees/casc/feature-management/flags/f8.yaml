@@ -11,5 +11,8 @@ labels:
   - l2
 
 availableValues:
+  - l3
+  - l1
+  - l2
 
 isPermanent: true
