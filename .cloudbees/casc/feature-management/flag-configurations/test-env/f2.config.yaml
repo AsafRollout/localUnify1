@@ -2,16 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: f3
+flag: f2
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue: true
 
-conditions:
-  - anyOf:
-      - group:
-          name: tg3
-    flagValue: true
+conditions: []

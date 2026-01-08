@@ -4,14 +4,11 @@ kind: flag
 
 flag: f3
 flagType: boolean
-description: testing has perm
+description: ""
 labels:
-  - l2
-  - l3
-  - l1
 
 availableValues:
-  - "false"
   - "true"
+  - "false"
 
-isPermanent: true
+isPermanent: false

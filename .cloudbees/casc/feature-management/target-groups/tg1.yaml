@@ -2,14 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: tg3
+name: tg1
 
-description: 
+description: desc from qa
 
 conditions:
   allOf:
     - property:
         name: str
-        operator: in-array
-        operands:
-            - sample
+        operator: is-undefined
